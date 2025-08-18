@@ -29,6 +29,8 @@ class ControllerNode(Node):
         self.Kd = self.get_parameter('Kd').value
         self.U_max = self.get_parameter('U_max').value
 
+        self.get_logger().info(f'Initialized PID Controller with: Kp={self.Kp}, Ki={self.Ki}, Kd={self.Kd}, U_max={self.U_max}')
+
         self.pid = PIDController(self.Kp, self.Ki, self.Kd, self.U_max)
         self.target = 0.0
         self.feedback = 0.0

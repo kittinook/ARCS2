@@ -33,6 +33,8 @@ class DcMotorNode(Node):
         B = self.get_parameter('B').value
         V_max = self.get_parameter('V_max').value
 
+        self.get_logger().info(f'Initialized DC Motor with: Ke={Ke}, Kt={Kt}, L={L}, R={R}, J={J}, B={B}, V_max={V_max}')
+
         self.motor = DCMotorModel(Ke, Kt, L, R, J, B, V_max)
         self.motor.FM_init(self.freq)
         self.Vin = 0.0

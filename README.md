@@ -61,6 +61,7 @@ FRA502-LAB-StudentID/
 [Click here to create a repository](https://github.com/new)
 
 ## Important Notes
+- Prohibit from accessing any files within the `src` directory.
 - Complete `Exercise1.ipynb` between 13:45 and 14:15. Commit your work by 14:20 19 AUG 2025 GMT+7.
 - Complete `Exercise2.ipynb` between 14:20 and 15:50. Commit your work by 16:30 19 AUG 2025 GMT+7.
 - Ensure you submit your Git link in Google Classroom.

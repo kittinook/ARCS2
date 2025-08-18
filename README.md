@@ -8,7 +8,7 @@ Ensure you have ROS 2 Humble installed. If rosdep is not initialized, it will be
 ## Installation
 Clone the repository and install dependencies:
 ```bash
-git -b LAB1 clone https://github.com/kittinook/ARCS2.git
+git clone -b LAB1 https://github.com/kittinook/ARCS2.git
 cd ARCS2
 
 sudo apt update

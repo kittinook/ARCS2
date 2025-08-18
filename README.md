@@ -23,6 +23,7 @@ rosdep install -y -i --from-paths src
 sudo apt install ros-humble-rqt*
 sudo apt install ros-humble-tf*
 sudo apt install ros-humble-turtlesim
+sudo apt install ros-humble-teleop-*
 
 colcon build
 source install/setup.bash

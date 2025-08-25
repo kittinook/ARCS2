@@ -15,7 +15,7 @@ Make an appointment for an examination by [Click here to queue](https://docs.goo
 
 # Demo and Instructions Video
 
-[![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://youtu.be/nTQUwghvy5Q)
+[![Watch the video](https://i9.ytimg.com/vi_webp/keqN5zx5Sp0/mq3.webp?sqp=CNznssUG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gFCgTMA8=&rs=AOn4CLDeMJL9i7qx6XohPcvN_zs_BBbCaQ)](https://youtu.be/keqN5zx5Sp0)
 
 
 ## Part 1 - Complete System Architecture
@@ -147,5 +147,7 @@ Below is example
    ```bash
    ros2 run FRA502-LAB-StudentID <node_name>
    ```
+
+
 
 Modify the commands to match your package and node names. below here

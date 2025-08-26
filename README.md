@@ -8,6 +8,7 @@ An interactive lab implementing user-spawned “pizza” targets, service-driven
 - During the lab, you can access the internet as usual, but all Generative AI, including VSCode's Copilot and others, are prohibited.
 - Submissions are based on **the time of the last commit**.
 - **WARNING: If you do not follow these instructions exactly, your score will be 0 in all cases.**
+- TA use this command to check your commits: ```git log --pretty=format:"%h - %an, %ar : %s -- %ad"```
 
 Make an appointment for an examination by [Click here to queue](https://docs.google.com/spreadsheets/d/102x7QDbCxpxB_BmuFilWCqS9xsuPyOtY7FSXAnwPJss/edit?usp=sharing)
 

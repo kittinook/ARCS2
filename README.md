@@ -68,6 +68,7 @@ FRA502-LAB-StudentID/
 - **Forage mode operation** by continuously spawning pizzas at clicked locations via spawn service and eating them in order-by-order sequence using `/turtle1/eat` service - must handle simultaneous pizza spawning while executing eating sequence.
 - **Track progress** via `/turtle1/pizza_count` to determine when all pizzas are consumed.
 - **Evade mode operation** (when all pizzas eaten) robot must move to the target from `/mouse_position` and `/goal_pose` ..
+- **Able to set max pizza** via topic `/set_max_pizza`
 - **Node must be able to run by `ros2 run` in Terminal**.
 
 ### Node `killer` requirement  

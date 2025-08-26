@@ -68,7 +68,7 @@ FRA502-LAB-StudentID/
 - **Forage mode operation** by continuously spawning pizzas at clicked locations via spawn service and eating them in order-by-order sequence using `/turtle1/eat` service - must handle simultaneous pizza spawning while executing eating sequence.
 - **Track progress** via `/turtle1/pizza_count` to determine when all pizzas are consumed.
 - **Evade mode operation** (when all pizzas eaten) robot must move to the target from `/mouse_position` and `/goal_pose` ..
-- **Able to set max pizza** via topic `/set_max_pizza`
+- **Able to set max pizza** via topic `/set_max_pizza`.
 - **Node must be able to run by `ros2 run` in Terminal**.
 
 ### Node `killer` requirement  
@@ -87,10 +87,8 @@ FRA502-LAB-StudentID/
 - **Implement odometry publishing function** that handles publishing odometry data to `/odom1`, `/odom2`, and corresponding `/tf` transforms for both turtles, following the example structure: `def example_pub(self, msg, turtle_name, child_frame_id)`.
 - **RViz2 compatibility** by ensuring the node works seamlessly with the provided `config fun2.rviz` configuration file for proper visualization.
 - **Node must be able to run by `ros2 run` in Terminal** with standard ROS2 command-line interface.
-
-## **If the TA finds any issues, such as a node running but not meeting the requirements etc. , you will receive half the points for that issue in each node requirement.**
-
 ---
+## **If the TA finds any issues, such as a node running but not meeting the requirements etc. , you will receive half the points for that issue in each node requirement.**
 
 ## Part 3 - Your Turn
 

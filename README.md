@@ -15,9 +15,9 @@ Make an appointment for an examination by [Click here to queue](https://docs.goo
 
 # Demo and Instructions Video
 
-[![Watch the video](https://i9.ytimg.com/vi_webp/keqN5zx5Sp0/mq3.webp?sqp=CNznssUG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gFCgTMA8=&rs=AOn4CLDeMJL9i7qx6XohPcvN_zs_BBbCaQ)](https://youtu.be/keqN5zx5Sp0)
+[![Watch the video](https://i.ytimg.com/an_webp/keqN5zx5Sp0/mqdefault_6s.webp?du=3000&sqp=CP6AtsUG&rs=AOn4CLCAjv0DwNV-l73dpPpHO3OjVMZj_w)](https://youtu.be/keqN5zx5Sp0)
 
-
+---
 ## Part 1 - Complete System Architecture
 
 [Download the System Architecture](./LAB2_SA.pdf)

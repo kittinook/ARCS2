@@ -16,7 +16,7 @@ Make an appointment for an examination by [Click here to queue](https://docs.goo
 
 # Demo and Instructions Video
 
-[![Watch the video](https://i.ytimg.com/an_webp/keqN5zx5Sp0/mqdefault_6s.webp?du=3000&sqp=CP6AtsUG&rs=AOn4CLCAjv0DwNV-l73dpPpHO3OjVMZj_w)](https://youtu.be/keqN5zx5Sp0)
+[![Watch the video](./demo.webp)](https://youtu.be/keqN5zx5Sp0)
 
 ---
 ## Part 1 - Complete System Architecture

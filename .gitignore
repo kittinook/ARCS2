@@ -1,0 +1,114 @@
+# ========================
+# ROS 2 Build Directories
+# ========================
+build/
+install/
+log/
+
+# Colcon build artifacts
+**/CMakeCache.txt
+**/CMakeFiles/
+**/cmake_install.cmake
+**/Makefile
+**/CTestTestfile.cmake
+**/Testing/
+
+# ========================
+# ROS 2 Generated Files
+# ========================
+**/*.cmake
+**/*.pc
+**/*.a
+**/*.so
+**/*.so.*
+**/*.dll
+**/*.dylib
+**/*.pyc
+**/__pycache__/
+**/*.egg-info/
+
+# ========================
+# Development Files
+# ========================
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.orig
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========================
+# Logs and Temporary Files
+# ========================
+*.log
+*.tmp
+*.temp
+
+# ========================
+# Documentation Builds
+# ========================
+doc/_build/
+doc/_out/
+doc/html/
+doc/latex/
+
+# ========================
+# Python (if using rclpy)
+# ========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========================
+# Package Specific
+# ========================
+# Ignore package.xml and CMakeLists.txt if they are generated
+# (but usually you want to keep these!)
+# !package.xml
+# !CMakeLists.txt

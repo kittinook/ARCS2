@@ -68,8 +68,8 @@ FRA502-LAB-StudentID/
   - Return response as this service type `std_msgs/String` with variable name : `log` 
   - Value of `log` must always show the maximum number of pizzas that can be spawned with a status **success** when value of `max_pizza` from service call `>` current `max_pizza` of Node `eater` . Otherwise  show status **failed**.
 - **`SetParam.srv`** (custom service type to set `kp_linear` and `kp_angular`)
-  - Define the `kp_linear` by this service type : `std_msgs/Int64` with variable name : `kp_linear` 
-  - Define the `kp_angular` by this service type : `std_msgs/Int64` with variable name : `kp_angular` 
+  - Define the `kp_linear` by this service type : `std_msgs/Float64` with variable name : `kp_linear` 
+  - Define the `kp_angular` by this service type : `std_msgs/Float64` with variable name : `kp_angular` 
   - This custom service has no response.
 
 ### Launch file requirement
@@ -82,6 +82,7 @@ FRA502-LAB-StudentID/
 - All nodes must be properly configured before starting.
 - Able to configure frequency of `eater` node via **launch file** parameter with name `sampling_frequency` and default value `100.0` (Hz).
 - Able to configure frequency of `killer` node via **launch file** parameter with name `sampling_frequency` and default value `100.0` (Hz).
+- Able to configure target `eater` turtle via **launch file** parameter of `killer` node with name `eater_name` and default value `eater_turtle`.
 
 ### Node `eater` requirement
 ### What this node **must do**
